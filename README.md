@@ -4,7 +4,7 @@
 
 
 
-![](/home/peter/Data-Science-Intro/requirement.png)
+![](./requirement.png)
 
 ## 2.总进度:<progress value="5" max="100"></progress>
 
