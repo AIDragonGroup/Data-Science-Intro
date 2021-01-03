@@ -6,17 +6,16 @@
 
 ![](./requirement.png)
 
-## 2.总进度:<progress value="5" max="100"></progress>
+## 2.总进度:
 
-- [ ] 数据探索
-- [ ] 特征工程
-- [ ] 模型选择
-- [ ] 模型优化
-- [ ] 模型融合
-
+- [x] 数据探索
+- [x] 特征工程
+- [x] 模型选择和优化
+- [x] 模型理解
 
 
-### 2.1.数据探索(20%)<progress value="5" max="20"></progress>
+
+### 2.1.数据探索
 
 <font color="blue">对比, 分组, 频数, 抓大放小, 可视化</font>
 
@@ -32,53 +31,27 @@
 
   
 
-### 2.2. 特征工程(40%)<progress value="0" max="30"></progress>
+### 2.2. 特征工程
 
-- [ ] 数据预处理
+- [x] 数据预处理
 	- 数据清洗
-		- 缺失值插补, 异常值删除
-		- *小技巧:用训练集数据学习一个模型, 然后预测训练集标签, 删除预测结果偏差较大的样本*
-	- 数据变换:
-		- Ln, Log
-		- One-hot encoding
-		- 连续变量离散化
-	- 数据规范化:
-		- Min-Max
-- [x] ~~特征构造(难)~~
-	
-- [ ] 特征选择
-	- 过滤式选择: Person Correlation Coefficient
-	- 包装式选择: 遗传, 退火
-	- 嵌入式选择: Lasso Regression, GBDT, XGBoost
+	- 数据变换
 
-### 2.3. 模型选择(10%)<progress value="0" max="10"></progress>
+### 2.3. 模型选择
 
-### 2.4. 模型优化(20%)<progress value="0" max="30"></progress>
+XGBoost Classifier
+
+### 2.4. 模型优化
 
 #### 2.4.1.评估方法:
 - 留出法
-- 自助法
-- ~~交叉验证法~~
 
 #### 2.4.2.性能度量:
 - Acurracy
-- F1
-- AUC
-- Logioss
-- K-S
-- Kappa
 
 #### 2.4.3.参数调整:
 - 网格搜索
-- ~~贝叶斯优化~~
-- ~~启发式算法~~
-### 2.5. 模型融合(10%)<progress value="0" max="10"></progress>
-
-- 加权平均
-- Bagging
-- Boosting
-- Blending
-- ~~Stacking~~
+### 2.5. 模型理解
 
 ## 3. 完成并提交实验报告
 
